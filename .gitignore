@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+/.vs
+/ReadingE.a7c146a6
+/x64

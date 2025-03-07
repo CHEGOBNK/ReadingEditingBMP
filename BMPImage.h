@@ -1,4 +1,4 @@
-#pragma once
+п»ї#pragma once
 
 #ifndef BMPIMAGE_H
 #define BMPIMAGE_H
@@ -8,7 +8,7 @@
 
 using namespace std;
 
-// Заголовок BMP файла должен быть выровнен, по байтам
+// Р—Р°РіРѕР»РѕРІРѕРє BMP С„Р°Р№Р»Р° РґРѕР»Р¶РµРЅ Р±С‹С‚СЊ РІС‹СЂРѕРІРЅРµРЅ, РїРѕ Р±Р°Р№С‚Р°Рј
 #pragma pack(push, 1)
 struct BMPHeader {
     uint16_t bfType;
@@ -51,7 +51,7 @@ public:
     void display() const;
     void drawLine(int x1, int y1, int x2, int y2);
     void drawCross();
-    void getDimensions() const; // Задание не требует такого метода, так было проще в отладке
+    void getDimensions() const; // Р—Р°РґР°РЅРёРµ РЅРµ С‚СЂРµР±СѓРµС‚ С‚Р°РєРѕРіРѕ РјРµС‚РѕРґР°, С‚Р°Рє Р±С‹Р»Рѕ РїСЂРѕС‰Рµ РІ РѕС‚Р»Р°РґРєРµ
     void saveImage();
 };
 
